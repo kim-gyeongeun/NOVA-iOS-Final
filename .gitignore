@@ -1,0 +1,37 @@
+# API credentials and other secrets (never commit)
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.p12
+*.mobileprovision
+
+# macOS / Xcode local build and user state
+.DS_Store
+**/xcuserdata/
+*.xcuserstate
+DerivedData/
+**/DerivedData/
+build/
+**/build/
+.build/
+**/.build/
+
+# Python temporary files and virtual environments
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+**/.pytest_cache/
+*.pyc
+.venv/
+**/.venv/
+venv/
+**/venv/
+
+# Local datasets and logs
+*.log
+*.sqlite
+*.sqlite3

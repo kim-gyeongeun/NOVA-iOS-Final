@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		1CFC4E60AF8BF29F4F86AE21 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Components/NovaUI.swift;
+			sourceTree = "<group>";
+		};
+		37B9990E2C97BE91E2031BD0 = {
+			isa = PBXBuildFile;
+			fileRef = 1CFC4E60AF8BF29F4F86AE21;
+		};
+		0ABC3FAF6F225836F2BA8DB9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Core/AIService.swift;
+			sourceTree = "<group>";
+		};
+		D1C351D9F6F243EE01FFD5A9 = {
+			isa = PBXBuildFile;
+			fileRef = 0ABC3FAF6F225836F2BA8DB9;
+		};
+		1B1128B4B9D04B66EF7B6CCD = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Core/ArenaEngine.swift;
+			sourceTree = "<group>";
+		};
+		D64D05C14B7CD4DD70556317 = {
+			isa = PBXBuildFile;
+			fileRef = 1B1128B4B9D04B66EF7B6CCD;
+		};
+		7AE321E35A47C2FA2AE7030A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Core/DocumentIntelligence.swift;
+			sourceTree = "<group>";
+		};
+		A393F4D8CB80F69C69E67BDB = {
+			isa = PBXBuildFile;
+			fileRef = 7AE321E35A47C2FA2AE7030A;
+		};
+		F85972E4AF123512BD8E98B0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Core/Models.swift;
+			sourceTree = "<group>";
+		};
+		0E5510E1DABE04555393C463 = {
+			isa = PBXBuildFile;
+			fileRef = F85972E4AF123512BD8E98B0;
+		};
+		38AC22798FD6C991B8AB7779 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Core/SmartRouter.swift;
+			sourceTree = "<group>";
+		};
+		8354E702855970F3B529341A = {
+			isa = PBXBuildFile;
+			fileRef = 38AC22798FD6C991B8AB7779;
+		};
+		691B00D547F6FF05B0FECEB5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Core/Store.swift;
+			sourceTree = "<group>";
+		};
+		10CFBA213BE86F7BCEAAF3E5 = {
+			isa = PBXBuildFile;
+			fileRef = 691B00D547F6FF05B0FECEB5;
+		};
+		C9D2B87853A1BD8A373CDCEF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Core/StudioTools.swift;
+			sourceTree = "<group>";
+		};
+		715C87724154140F400B158E = {
+			isa = PBXBuildFile;
+			fileRef = C9D2B87853A1BD8A373CDCEF;
+		};
+		5CFFD1C4C2EBE8EC9A20B5CC = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Core/VoiceInput.swift;
+			sourceTree = "<group>";
+		};
+		C16D4592B083DF09439052E4 = {
+			isa = PBXBuildFile;
+			fileRef = 5CFFD1C4C2EBE8EC9A20B5CC;
+		};
+		ABCD4C28D320EC535F7C3156 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Core/WorkbenchModels.swift;
+			sourceTree = "<group>";
+		};
+		80F7DBB9FE097878911CE212 = {
+			isa = PBXBuildFile;
+			fileRef = ABCD4C28D320EC535F7C3156;
+		};
+		BFB5F3D4A00E8851763C29FA = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Core/WorkflowEngine.swift;
+			sourceTree = "<group>";
+		};
+		C3CD312C02455FBE8736727B = {
+			isa = PBXBuildFile;
+			fileRef = BFB5F3D4A00E8851763C29FA;
+		};
+		D0C141F818484C2D4925ED76 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = NOVAApp.swift;
+			sourceTree = "<group>";
+		};
+		338D850ABEF8D936665BD6D1 = {
+			isa = PBXBuildFile;
+			fileRef = D0C141F818484C2D4925ED76;
+		};
+		8B3916479ED871D9A79B2806 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Views/AIHubView.swift;
+			sourceTree = "<group>";
+		};
+		A4390096E6960384AB524F06 = {
+			isa = PBXBuildFile;
+			fileRef = 8B3916479ED871D9A79B2806;
+		};
+		A5256BCE0F95FE1EADF7DB70 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Views/BlindArenaView.swift;
+			sourceTree = "<group>";
+		};
+		C89D16B0C4B2DEAEC8E83DD0 = {
+			isa = PBXBuildFile;
+			fileRef = A5256BCE0F95FE1EADF7DB70;
+		};
+		FA1AEED59F0021B94DACAF83 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Views/ConnectionCenterView.swift;
+			sourceTree = "<group>";
+		};
+		36403B16FFABAE21DA02362B = {
+			isa = PBXBuildFile;
+			fileRef = FA1AEED59F0021B94DACAF83;
+		};
+		DEB9090DB6341F5475F35D29 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Views/DocumentStudioView.swift;
+			sourceTree = "<group>";
+		};
+		F29B36BAB995ED349E0B568F = {
+			isa = PBXBuildFile;
+			fileRef = DEB9090DB6341F5475F35D29;
+		};
+		BFB118F4A499909AF00E17F0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Views/HomeView.swift;
+			sourceTree = "<group>";
+		};
+		C35D016A5F40FDCAC30E5C99 = {
+			isa = PBXBuildFile;
+			fileRef = BFB118F4A499909AF00E17F0;
+		};
+		192A755748F82BDAF4CE347B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Views/LabView.swift;
+			sourceTree = "<group>";
+		};
+		0F59E95B873841EB974E4165 = {
+			isa = PBXBuildFile;
+			fileRef = 192A755748F82BDAF4CE347B;
+		};
+		862DBE6AD8796BF1B5A8B8E0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Views/SettingsView.swift;
+			sourceTree = "<group>";
+		};
+		ADDE395BB98ED778EAE00426 = {
+			isa = PBXBuildFile;
+			fileRef = 862DBE6AD8796BF1B5A8B8E0;
+		};
+		4B8FB9B3DD758DFBF31535F5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Views/SmartRouterView.swift;
+			sourceTree = "<group>";
+		};
+		8022048A07D1123CFC780BBF = {
+			isa = PBXBuildFile;
+			fileRef = 4B8FB9B3DD758DFBF31535F5;
+		};
+		430391455218474501B08AAB = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Views/TeamGalleryView.swift;
+			sourceTree = "<group>";
+		};
+		9A4F72C7429A829ADA09D8F6 = {
+			isa = PBXBuildFile;
+			fileRef = 430391455218474501B08AAB;
+		};
+		C4128A5F7819187A1E130D64 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Views/TeamsView.swift;
+			sourceTree = "<group>";
+		};
+		89FAE49CC153819D5B1DD2AD = {
+			isa = PBXBuildFile;
+			fileRef = C4128A5F7819187A1E130D64;
+		};
+		BFFDBF2AEF933E50FA25B531 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Views/VaultView.swift;
+			sourceTree = "<group>";
+		};
+		71DEBCCCDACD3234520DC88A = {
+			isa = PBXBuildFile;
+			fileRef = BFFDBF2AEF933E50FA25B531;
+		};
+		27C12740AF31CE48329B33A7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Views/WorkbenchView.swift;
+			sourceTree = "<group>";
+		};
+		45534120569704820BBE9781 = {
+			isa = PBXBuildFile;
+			fileRef = 27C12740AF31CE48329B33A7;
+		};
+		FEF140C5A7A5719BC2C4B6B8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder.assetcatalog;
+			path = Assets.xcassets;
+			sourceTree = "<group>";
+		};
+		CD39B4A91B493DDAA8FB66A7 = {
+			isa = PBXBuildFile;
+			fileRef = FEF140C5A7A5719BC2C4B6B8;
+		};
+		5C60D4FEFD98F0C7A3D000FD = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = NOVA.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8065992AE584EC9FBCEA4BA8 = {
+			isa = PBXGroup;
+			children = (
+				1CFC4E60AF8BF29F4F86AE21,
+				0ABC3FAF6F225836F2BA8DB9,
+				1B1128B4B9D04B66EF7B6CCD,
+				7AE321E35A47C2FA2AE7030A,
+				F85972E4AF123512BD8E98B0,
+				38AC22798FD6C991B8AB7779,
+				691B00D547F6FF05B0FECEB5,
+				C9D2B87853A1BD8A373CDCEF,
+				5CFFD1C4C2EBE8EC9A20B5CC,
+				ABCD4C28D320EC535F7C3156,
+				BFB5F3D4A00E8851763C29FA,
+				D0C141F818484C2D4925ED76,
+				8B3916479ED871D9A79B2806,
+				A5256BCE0F95FE1EADF7DB70,
+				FA1AEED59F0021B94DACAF83,
+				DEB9090DB6341F5475F35D29,
+				BFB118F4A499909AF00E17F0,
+				192A755748F82BDAF4CE347B,
+				862DBE6AD8796BF1B5A8B8E0,
+				4B8FB9B3DD758DFBF31535F5,
+				430391455218474501B08AAB,
+				C4128A5F7819187A1E130D64,
+				BFFDBF2AEF933E50FA25B531,
+				27C12740AF31CE48329B33A7,
+				FEF140C5A7A5719BC2C4B6B8,
+			);
+			path = NOVA;
+			sourceTree = "<group>";
+		};
+		D343C9FF96675251D7974CDB = {
+			isa = PBXGroup;
+			children = (
+				5C60D4FEFD98F0C7A3D000FD,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		406F3B2D2FABBA8CCC69726E = {
+			isa = PBXGroup;
+			children = (
+				8065992AE584EC9FBCEA4BA8,
+				D343C9FF96675251D7974CDB,
+			);
+			sourceTree = "<group>";
+		};
+		D0041B65ABD55CFFBFB50838 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B9990E2C97BE91E2031BD0,
+				D1C351D9F6F243EE01FFD5A9,
+				D64D05C14B7CD4DD70556317,
+				A393F4D8CB80F69C69E67BDB,
+				0E5510E1DABE04555393C463,
+				8354E702855970F3B529341A,
+				10CFBA213BE86F7BCEAAF3E5,
+				715C87724154140F400B158E,
+				C16D4592B083DF09439052E4,
+				80F7DBB9FE097878911CE212,
+				C3CD312C02455FBE8736727B,
+				338D850ABEF8D936665BD6D1,
+				A4390096E6960384AB524F06,
+				C89D16B0C4B2DEAEC8E83DD0,
+				36403B16FFABAE21DA02362B,
+				F29B36BAB995ED349E0B568F,
+				C35D016A5F40FDCAC30E5C99,
+				0F59E95B873841EB974E4165,
+				ADDE395BB98ED778EAE00426,
+				8022048A07D1123CFC780BBF,
+				9A4F72C7429A829ADA09D8F6,
+				89FAE49CC153819D5B1DD2AD,
+				71DEBCCCDACD3234520DC88A,
+				45534120569704820BBE9781,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955420DEBF52B3CED19B2C52 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD39B4A91B493DDAA8FB66A7,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8CA982B649930BCB055FE01 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C94B33F93398C35E763ADB8 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA3B8512A4F1EA0DA3A2514,
+				3A332505007234CCE3DF4A92,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97ACD20EB831620414D3A998 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B34723C0E93CDED0F0D71EF8,
+				B662BD24DC16FFEB70DD8BCD,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B34723C0E93CDED0F0D71EF8 = {
+			isa = XCBuildConfiguration;
+			name = Debug;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				SWIFT_VERSION = 5.0;
+				SDKROOT = iphoneos;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+		};
+		4CA3B8512A4F1EA0DA3A2514 = {
+			isa = XCBuildConfiguration;
+			name = Debug;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NOVA/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NOVA;
+				INFOPLIST_KEY_LSApplicationCategoryType = public.app-category.productivity;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "AI에 첨부할 사진을 선택하기 위해 사진 접근이 필요합니다.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "사진 저장 기능을 사용할 때 사진 접근이 필요합니다.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "질문을 음성으로 입력하기 위해 마이크를 사용합니다.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "한국어 음성을 텍스트로 변환하기 위해 음성 인식을 사용합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.novaproject.multiagent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				ENABLE_PREVIEWS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_OPTIMIZATION_LEVEL = -Onone;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+			};
+		};
+		B662BD24DC16FFEB70DD8BCD = {
+			isa = XCBuildConfiguration;
+			name = Release;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				SWIFT_VERSION = 5.0;
+				SDKROOT = iphoneos;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+		};
+		3A332505007234CCE3DF4A92 = {
+			isa = XCBuildConfiguration;
+			name = Release;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NOVA/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NOVA;
+				INFOPLIST_KEY_LSApplicationCategoryType = public.app-category.productivity;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "AI에 첨부할 사진을 선택하기 위해 사진 접근이 필요합니다.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "사진 저장 기능을 사용할 때 사진 접근이 필요합니다.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "질문을 음성으로 입력하기 위해 마이크를 사용합니다.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "한국어 음성을 텍스트로 변환하기 위해 음성 인식을 사용합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.novaproject.multiagent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				ENABLE_PREVIEWS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_OPTIMIZATION_LEVEL = -O;
+				DEBUG_INFORMATION_FORMAT = dwarf-with-dsym;
+			};
+		};
+		118ADFE5BD496B786B9AA8C7 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C94B33F93398C35E763ADB8;
+			buildPhases = (
+				D0041B65ABD55CFFBFB50838,
+				D8CA982B649930BCB055FE01,
+				955420DEBF52B3CED19B2C52,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NOVA;
+			productName = NOVA;
+			productReference = 5C60D4FEFD98F0C7A3D000FD;
+			productType = com.apple.product-type.application;
+		};
+		5581687B45DD769417E003D8 = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					118ADFE5BD496B786B9AA8C7 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 97ACD20EB831620414D3A998;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ko;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ko,
+				en,
+				Base,
+			);
+			mainGroup = 406F3B2D2FABBA8CCC69726E;
+			productRefGroup = D343C9FF96675251D7974CDB;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				118ADFE5BD496B786B9AA8C7,
+			);
+		};
+	};
+	rootObject = 5581687B45DD769417E003D8;
+}
